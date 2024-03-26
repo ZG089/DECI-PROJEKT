@@ -25,12 +25,12 @@ def evaluate_password(password):
     if not Gate1:
         non_compliant_message += "Your Password Must Contain At Least 8 characters.\n"
     if not Gate2:
-        non_compliant_message += "Password Must Contain Capital Letter(s).\n"
+        non_compliant_message += "Your Password Must Contain Capital Letter(s).\n"
     if not Gate3:
-        non_compliant_message += "Password Must Contain a Number or More.\n"
+        non_compliant_message += "Your Password Must Contain a Number or More.\n"
 
     if Gate1 and Gate2 and Gate3:
-        return "Compliant. Your Password Is Unbreakable !"
+        return "Compliant. Your Password Is Unbreakable!"
 
     return non_compliant_message
 
