@@ -1,0 +1,9 @@
+The three rules for a strong password are:
+
+1. The password string should be at least 8 characters
+
+
+2. The password string should contain Capital Letters
+
+
+3. The password string should contain Numbers
