@@ -6,7 +6,7 @@ def calculate_md5(filename):
     # ToDo:
     # Call the md5() function from the hashlib package.    
     '''    
-    hash_md5 =  # YOUR CODE GOES HERE
+    hash_md5 =  hashlib.md5()
     
 
     '''
